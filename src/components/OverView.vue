@@ -15,23 +15,50 @@
             color="#e1e0e0c9"
             elevation="6"
           >
-            <v-card-subtitle class="green--text">ABOUT MYSELF</v-card-subtitle>
+            <v-card-subtitle class="green--text">ABOUT MY COMPANY</v-card-subtitle>
             <h2 class="display-1 font-weight-regular">
-              I am a developer with Laravel framework and a little with Vue Js. Since 2020 I've been doing freelance jobs and looking for a full-time or part-time position prefered(remotely), or freelance.
-
+A company for trading and distribution plexiglass with thicknesses between 2mm to 50mm with Transparent color and all colors, and we have to do different thing from them like gifts ,advertisement banner ,  and False Ceilings ....
             </h2>
 
           </v-card>
         </v-col>
         <v-col lg="6" xs="12" >
           <v-card class="pa-6 rounded-lg" color="#e1e0e0c9" elevation="6">
-            <div class="py-1" v-for="(item, index) in items" :key="index">
-              <label>{{ item.title }}</label>
-              <v-progress-linear
-                :color="item.color"
-                height="10"
-                :value="item.value"
-              ></v-progress-linear>
+            <div row class="py-1" >
+
+              <v-col lg="6" xs="12" style="display: inline-block; height:221px; ">
+        <v-img
+          class="mx-4 "
+          style="max-height:100%;"
+          src="../assets/1.jpg"
+        ></v-img>
+      </v-col>
+              <v-col lg="6" xs="12" style="display: inline-block; height:221px;">
+        <v-img
+          class="mx-4 "
+          style="max-height:100%;"
+          src="../assets/4.jpg"
+        ></v-img>
+      </v-col>
+            </div>
+
+
+            <div row class="py-1" >
+
+              <v-col lg="6" xs="12" style="display: inline-block; height:221px;">
+        <v-img
+          class="mx-4 "
+                    style="max-height:100%;"
+          src="../assets/3.jpg"
+        ></v-img>
+      </v-col>
+              <v-col lg="6" xs="12" style="display: inline-block;  height:221px;">
+        <v-img
+          class="mx-4 "
+          style="max-height:100%;"
+          src="../assets/2.jpg"
+        ></v-img>
+      </v-col>
             </div>
           </v-card>
         </v-col>

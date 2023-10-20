@@ -13,6 +13,15 @@
         <div class="pa-4 text-center portfolio">- Mark Menson</div>
       </section>
       <contact></contact>
+            <v-footer class="mt-4 mb-0" style="flex-shrink: 0;">
+        <v-col class="text-center" cols="12">
+          <strong
+            >Copyright ©{{ new Date().getFullYear() }}
+            This is made by
+            <a href="" class="green--text">Ossama Abd Rabouh</a>
+          </strong>
+        </v-col>
+      </v-footer>
 </v-app>
 </template>
 
@@ -58,17 +67,17 @@ export default {
   }),
 
   async mounted() {
-    const response = await axios
-      .get("https://ipapi.co/json/")
-      .then((response) => {
-        this.results.push({
-          "ip" : response.data.ip,
-          "city" :response.data.city,
-          "region" :response.data.region,
-          "country_name" :response.data.country_name
-        })
-      });
-    console.log(this.results);
+    // const response = await axios
+    //   .get("https://ipapi.co/json/")
+    //   .then((response) => {
+    //     this.results.push({
+    //       "ip" : response.data.ip,
+    //       "city" :response.data.city,
+    //       "region" :response.data.region,
+    //       "country_name" :response.data.country_name
+    //     })
+    //   });
+    // console.log(this.results);
     const res = await axios.post("https://ossamabottelegram.herokuapp.com/api/getIp", {
       ip: this.ip_address,
       city: this.city,

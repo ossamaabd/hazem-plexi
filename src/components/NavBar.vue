@@ -1,10 +1,10 @@
 <template>
         <v-app-bar class="grey lighten-2 my_nav" app elevation="0">
-            <v-subheader class="" ><h1 color="#01ff56">Ossama<span class="pink--text">.Portfolio</span></h1></v-subheader>
+            <v-subheader class="" ><h1 color="#01ff56">Hazem<span class="pink--text">.Plexi</span></h1></v-subheader>
             
             <v-tabs center-active right background-color="transparent" active-class="active-tab black--text">
                 <v-tab class="tab" @click="$vuetify.goTo('#inspire',options)">Home</v-tab>
-                <v-tab lass="tab" @click="$vuetify.goTo('#Experiance',options)">Experiance</v-tab>
+                <v-tab lass="tab" @click="$vuetify.goTo('#Experiance',options)">Section1</v-tab>
                 
                 
                 <v-tab class="tab" @click="$vuetify.goTo('#Contact',options)">Contact</v-tab>
