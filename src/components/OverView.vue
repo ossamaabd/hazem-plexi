@@ -1,5 +1,7 @@
 <template>
     <v-row>
+      <v-col lg="12" xs="12" class="pa-6 about-me"  id="about">
+
   <section class="about-me"  id="about">
 
       <v-img
@@ -65,6 +67,7 @@ A company for trading and distribution plexiglass with thicknesses between 2mm t
       </v-row>
     </v-img>
   </section>
+  </v-col>
   </v-row>
 </template>
 
