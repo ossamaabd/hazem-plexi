@@ -7,9 +7,7 @@
       style="max-height:100%;"
     >
       <v-container>
-        <h4 class="display-1 text-center mb-5">
-          This page is build by Vue js with Vuetify.
-        </h4>
+        
         <v-divider />
         <br />
         <v-row>
