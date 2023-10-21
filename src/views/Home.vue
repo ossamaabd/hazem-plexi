@@ -6,12 +6,7 @@
       <overview></overview>
 
       <experiance :items="items" id="Experiance"></experiance>
-      <section class="portfolio" id="Portfolio">
-        <h4 class="display-2 text-center">
-          If you don't play, you'll never win.
-        </h4>
-        <div class="pa-4 text-center portfolio">- Mark Menson</div>
-      </section>
+     
       <contact></contact>
             <v-footer class="mt-4 mb-0" style="flex-shrink: 0;">
         <v-col class="text-center" cols="12">

@@ -18,6 +18,9 @@
               Damascus, <br />
               Tell 00963944230236, <br />
               hazemzakaria3@gmail.com <br />
+              011-2323397 <br />
+              Fax: 011-2315341 <br />
+              <a href="https://www.facebook.com/HazemZakaria.SY?mibextid=ZbWKwL">facebook</a><br />
             </v-card-text>
 
           </v-col>
